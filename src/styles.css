@@ -91,15 +91,6 @@ p {
   display: block;
 }
 
-.app-images {
-  display: block;
-  text-align: center;
-}
-
-.yogurt-app-image {
-  max-width: 300px;
-}
-
 .about-paragraphs {
   margin: 30px 0;
 }
