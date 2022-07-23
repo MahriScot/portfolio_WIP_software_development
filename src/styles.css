@@ -4,18 +4,23 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 800px) {
+  h1 {
+    font-size: 55px;
+  }
+}
+
 body {
   margin-top: 80px;
 }
 
-h1,
 h2,
 h3 {
   margin: 0;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 65px;
 }
 
 h2 {
@@ -84,6 +89,15 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+}
+
+.app-images {
+  display: block;
+  text-align: center;
+}
+
+.yogurt-app-image {
+  max-width: 300px;
 }
 
 .about-paragraphs {
